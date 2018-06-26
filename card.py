@@ -11,10 +11,10 @@ class Card:
         self.rank = rank
         self.suit = suit
 
-    """
-    Returns a string containing the name of the card
-    """
-    def cardName(self):
+    def __str__(self):
+        """
+        Returns a string containing the card's name
+        """
         if self.rank == 1:
             rankName = "Ace"
         elif self.rank == 11:
