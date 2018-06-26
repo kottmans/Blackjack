@@ -27,4 +27,3 @@ class Card:
             rankName = str(self.rank)
 
         return "{rank} of {suit}".format(rank = rankName, suit = self.suit)
-    
